@@ -1,0 +1,7 @@
+{
+  "name": "ClasifiedApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

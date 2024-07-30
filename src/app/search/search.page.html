@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Buscar Publicaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input placeholder="Buscar..." #searchQuery></ion-input>
+    <ion-button (click)="onSearch(searchQuery.value)">Buscar</ion-button>
+  </ion-item>
+</ion-content>

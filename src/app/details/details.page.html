@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalles de la Publicación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="publication-details">
+    <ion-card *ngIf="publication">
+      <img [src]="publication.img" alt="Imagen de la publicación" class="publication-image">
+      <ion-card-content>
+        <div class="publication-title">{{ publication.Titulo }}</div>
+        <div class="publication-content">{{ publication.Contenido }}</div>
+        <div class="publication-price">Precio: {{ publication.Precio }}</div>
+        <div class="publication-status">Estado: {{ publication.Estado }}</div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

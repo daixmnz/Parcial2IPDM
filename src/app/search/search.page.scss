@@ -1,0 +1,66 @@
+:host {
+    display: block;
+    padding: 16px;
+    background-color: #f8f9fa;
+  
+    ion-header {
+      --background: #007bff;
+      --color: #ffffff;
+    }
+  
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+  
+      ion-input {
+        flex: 1;
+        margin-right: 8px;
+        --background: #ffffff;
+        --placeholder-color: #6c757d;
+        --padding-start: 8px;
+        --padding-end: 8px;
+        --padding-top: 8px;
+        --padding-bottom: 8px;
+      }
+  
+      ion-button {
+        --background: #007bff;
+        --color: #ffffff;
+      }
+    }
+  
+    .publication-list {
+      ion-card {
+        margin-bottom: 16px;
+  
+        .publication-image {
+          width: 100%;
+          height: auto;
+        }
+  
+        ion-card-content {
+          font-size: 16px;
+          color: #343a40;
+        }
+  
+        .publication-title {
+          font-size: 20px;
+          font-weight: bold;
+          color: #007bff;
+        }
+  
+        .publication-content {
+          font-size: 18px;
+          color: #6c757d;
+        }
+  
+        .publication-price {
+          font-size: 18px;
+          color: #28a745;
+        }
+      }
+    }
+  }
+  
